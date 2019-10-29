@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".proxy.AOPDBProxyActivity"/>
+        <activity android:name=".aspectJ.AOPAspectJLoginActivity" />
+        <activity android:name=".aspectJ.LoginActivity" />
+        <activity android:name=".aspectJ.OtherActivity" />
     </application>
 
 </manifest>

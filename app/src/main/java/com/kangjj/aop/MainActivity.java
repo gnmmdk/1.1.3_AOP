@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.kangjj.aop.aspectJ.AOPAspectJLoginActivity;
 import com.kangjj.aop.proxy.AOPDBProxyActivity;
 import com.kangjj.aop.proxy.DBOperation;
 
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goAOPAspectJ(View view) {
-        startActivity(new Intent(this, AOPDBProxyActivity.class));
+        startActivity(new Intent(this, AOPAspectJLoginActivity.class));
     }
 
 }
